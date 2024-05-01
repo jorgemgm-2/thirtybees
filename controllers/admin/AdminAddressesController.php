@@ -50,7 +50,7 @@ class AdminAddressesControllerCore extends AdminController
     {
         $this->bootstrap = true;
         $this->required_database = true;
-        $this->required_fields = ['company', 'address2', 'postcode', 'other', 'phone', 'phone_mobile', 'vat_number', 'dni'];
+        $this->required_fields = ['Company', 'Address (Line 2)', 'Zip/Postal Code', 'Additional information', 'Home phone', 'Mobile phone', 'VAT number'];
         $this->table = 'address';
         $this->className = 'Address';
         $this->lang = false;
