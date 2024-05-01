@@ -30,7 +30,7 @@
 	<h3><i class="icon-asterisk"></i> {l s='Required Fields'}</h3>
 	<form name="updateFields" action="{$current|escape:'html':'UTF-8'}&amp;submitFields=1&amp;token={$token|escape:'html':'UTF-8'}" method="post">
 		<div class="alert alert-info">
-			{l s='Select the fields you would like to be required for the customer.'}
+			{l s='Select the fields you would like to be required for this section.'}
 		</div>
 		<div class="row">
 			<table class="table">
@@ -39,7 +39,7 @@
 						<th class="fixed-width-xs">
 							<input type="checkbox" onclick="checkDelBoxes(this.form, 'fieldsBox[]', this.checked)" class="noborder" name="checkme">
 						</th>
-						<th><span class="title_box">{l s='Select all'}</span></th>
+						<th><span class="title_box">{l s='Field Name'}</span></th>
 					</tr>
 				</thead>
 				<tbody>
